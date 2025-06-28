@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="h-screen bg-slate-900 grid grid-row-12">
-        <div class="col-span-4  flex justify-between p-8">
-            <div class="border bg-orange-300 size-20"></div>
-            <div class="border bg-red-200 size-20"></div>
-        </div>
-        <div class="col-span-4 ">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagram 2</title>
 
-        </div>
-        <div class="col-span-4  flex gap-10 justify-center p-8">
-            <div class="border bg-slate-200 size-20"></div>
-            <div class="border bg-slate-400 size-20"></div>
-        </div>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+
+  <!-- Outer big box -->
+  <div class="size-150   flex items-center justify-center">
+    
+    <!-- Center box -->
+    <div class="size-48 bg-gray-200 relative">
+      
+      <!-- Top-right small square -->
+      <div class="size-12 bg-blue-500 absolute top-2 right-2"></div>
+
+      <!-- Bottom-left small square -->
+      <div class="size-12 bg-red-500 absolute bottom-2 left-2"></div>
+
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  </div>
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 </html>
